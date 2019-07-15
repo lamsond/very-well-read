@@ -18,3 +18,9 @@ Unstructured Data vs GraphQL
 * Typography.js trying out *Kirkham* theme.
 * *CSS-in-JS* library *Emotion*
 
+## setting up metadata
+
+* add a `siteMetadata` property to the `module.exports` object.
+* use `graphql` to query this data
+* page queries for pages
+* `useStaticQuery` for non-page components
