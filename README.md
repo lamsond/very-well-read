@@ -24,3 +24,11 @@ Unstructured Data vs GraphQL
 * use `graphql` to query this data
 * page queries for pages
 * `useStaticQuery` for non-page components
+
+## source plugins help you pull data in
+
+* add the `filesystem` plugin to make your path structure visible to gatsby
+* use `http://127.0.0.1:8000/___graphql/` to work with *graphql* interactively.
+* use `CTRL + space` to make drop-downs appear
+
+## transformer plugins help you transform raw data brought in by source plugins
